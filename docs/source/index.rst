@@ -4,6 +4,7 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 3
 
    features
    api
