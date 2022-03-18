@@ -1,5 +1,6 @@
-Usage
-=====
+=============
+Using harpoon
+=============
 
 .. _installation:
 

@@ -9,13 +9,14 @@ Contents
    introduction
    features
    products
-   usage "Using harpoon"
+   usage
 
 .. toctree::
    :caption: Integrations
 
    aws
    vmware
+   dockerhub
    github
    harbor
 
@@ -23,4 +24,4 @@ Contents
    :caption: Support
 
    troubleshooting
-   support 'open a support ticket'
+   support
