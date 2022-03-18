@@ -5,6 +5,7 @@ Contents
 ===================================
 
 .. toctree::
-   Getting Started
+
+Getting Started
    Features
    Products
