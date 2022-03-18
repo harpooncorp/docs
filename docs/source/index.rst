@@ -4,8 +4,9 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 3
+   :caption: Getting Started
 
+.. header:: This space for rent.
    features
    api
    usage
