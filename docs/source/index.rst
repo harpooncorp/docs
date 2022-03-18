@@ -6,7 +6,6 @@ Contents
 .. toctree::
    :caption: Getting Started
 
-.. header:: This space for rent.
    features
    api
    usage
