@@ -5,6 +5,6 @@ Contents
 
 .. toctree::
 
-   usage
+   features
    api
-   Products
+   usage
