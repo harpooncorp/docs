@@ -11,13 +11,15 @@ Contents
    products
    usage 'Using harpoon'
 
-.. toctree::
    :caption: Integrations
 
    aws 'Amazon Web Services (AWS)'
    vmware 'VMWare'
    github 'GitHub'
    harbor "Harbor"
+
+.. toctree::
+
 
 .. toctree::
    :caption: Support
