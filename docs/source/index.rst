@@ -9,17 +9,15 @@ Contents
    introduction
    features
    products
-   usage 'Using harpoon'
-
-   :caption: Integrations
-
-   aws 'Amazon Web Services (AWS)'
-   vmware 'VMWare'
-   github 'GitHub'
-   harbor "Harbor"
+   usage "Using harpoon"
 
 .. toctree::
+   :caption: Integrations
 
+   aws
+   vmware
+   github
+   harbor
 
 .. toctree::
    :caption: Support
