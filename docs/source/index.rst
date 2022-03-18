@@ -9,7 +9,7 @@ Contents
    introduction
    features
    products
-   usage
+   usage <Using harpoon>
 
 .. toctree::
    :caption: Integrations
@@ -18,3 +18,9 @@ Contents
    vmware <VMWare>
    github <GitHub>
    harbor <Harbor>
+
+.. toctree::
+   :caption: Support
+
+   troubleshooting
+   support <open a support ticket>
