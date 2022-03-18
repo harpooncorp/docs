@@ -1,14 +1,10 @@
-.. _features:
-
 Features
 ========
-
-harpoon Features:
 
 .. _elements:
 
 Elements
-========
+--------
 
 Every element depicted below has a visual representation of what state the element is in, excluding the link elements and log elements. Translucent represents the element has no state and is waiting to be activated. Yellow represents the element that is in the process of being deployed. Blue represents a successful deployment and is running successfully. Red represents a failed deployment and error state.
 
