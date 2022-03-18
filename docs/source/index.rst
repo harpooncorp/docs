@@ -6,6 +6,15 @@ Contents
 .. toctree::
    :caption: Getting Started
 
+   introduction
    features
-   api
+   products
    usage
+
+.. toctree::
+   :caption: Integrations
+
+   aws <Amazon Web Services (AWS)>
+   vmware <VMWare>
+   github <GitHub>
+   harbor <Harbor>
