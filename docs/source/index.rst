@@ -8,8 +8,6 @@ Contents
 --------
 
 .. toctree::
-caption: harpoon
-maxdepth: 1
 
    Getting Started
    Features
