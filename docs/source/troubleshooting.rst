@@ -20,9 +20,22 @@ We find the average time to complete a cluster deployment is about 3 minutes.
 
 Deploying third-party container images from Docker Hub
 ------------------------------------------------------
-
-
-
+harpoon provides dynamic deployment of over a million container images from Docker Hub, but we don't
+verify or validate anything about the container images you are choosing to deploy in your Kubernetes cluster.
+Your mileage may vary when it comes to successfully deploying third-party container images that you are not
+personally familiar with.
 
 Deploying third-party git repositories from GitHub
 --------------------------------------------------
+There are over 120 million public repositories at your fingertips to search GitHub using harpoon, but much
+like third-party container images from Docker Hub, many of these repositories require special configuration
+to work correctly, some of them may not compile, or have other unknown issues. Additionally, at this time,
+it is a requirement for a repository to have only one Dockerfile at the top level of the repository (best practice)
+in order for harpoon to be able to deploy it dynamically.
+
+Deployment times
+----------------
+Many container images and git repositories deploy in only a matter of seconds using harpoon, but some can take longer.
+This could be because the repository or container image is especially large, or it could be related to an issue with
+the container/software itself. If some software is taking a long time to deploy and then eventually turns red, it could
+be timing out after a number of failed attempts to deploy the software.
