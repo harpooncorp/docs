@@ -113,9 +113,9 @@ software to deploy using harpoon in a drag and drop fashion or connect to multip
 third-party providers is currently:
 
 .. _target to paragraph: aws
-* VMWare `vmware`_
-* GitHub `github`_
-* Docker Hub `dockerhub`_
+* VMWare `vmware.rst`_
+* GitHub :ref:`github`
+* Docker Hub :ref:`dockerhub`
 * Harbor `harbor`_
 
 Projects
