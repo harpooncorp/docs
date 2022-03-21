@@ -112,7 +112,7 @@ Description: Users have the ability to link their third-party accounts to harpoo
 software to deploy using harpoon in a drag and drop fashion or connect to multiple cloud providers. The list of
 third-party providers is currently:
 
-.. _aws: Amazon Web Services (AWS)
+.. _target to paragraph: aws
 .. _vmware: VMWare
 * GitHub
 * Docker Hub
