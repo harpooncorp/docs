@@ -114,7 +114,7 @@ third-party providers is currently:
 
 .. _target to paragraph: aws
 * VMWare `vmware.rst`_
-* GitHub :ref:`github`
+* :ref:`GitHub github`
 * Docker Hub :ref:`dockerhub`
 * Harbor `harbor`_
 
