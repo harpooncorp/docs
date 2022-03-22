@@ -63,7 +63,7 @@ outlined below.
 ConfigMap Element
 -----------------
 The config map element is a visual representation of Kubernetes ConfigMaps. A ConfigMap in Kubernetes
-is a Key/Value pair (refer to figure 20). ConfigMap elements can only be attached to git or container elements.
+is a Key/Value pair. ConfigMap elements can only be attached to git or container elements.
 When a ConfigMap element is attached to a git or container element, it modifies the deployment descriptor for the
 relevant Kubernetes pod that is already deployed in the Kubernetes cluster and then executes a command in Kubernetes
 to update the configuration for that deployment using the Kubernetes API. Much like the Container deployments,
@@ -75,7 +75,7 @@ Volume Element
 --------------
 The Volume element is a visual representation of a Kubernetes Persistent Volume Claim (PVC) for a
 given git or container element. Users can input the volume directory location inside a Kubernetes Pod where the
-data will be replicated to a distributed volume in the cloud (refer to figure 23).  Volume elements can only be
+data will be replicated to a distributed volume in the cloud.  Volume elements can only be
 attached to git or container elements. When a Volume element is attached to a git or container element, it modifies
 the deployment descriptor for the relevant Kubernetes pod that is already deployed in the Kubernetes cluster and then
 executes a command in Kubernetes to update the configuration for that deployment using the Kubernetes API. The PVC in
@@ -87,8 +87,7 @@ to expose the created Volume, in the user-specified manner, to the running conta
 Ingress Element
 ---------------
 The ingress element is a visual representation of a Kubernetes Ingress Route for the deployed git or container element.
-Users can directly input the port number that will be used to open the port for the relevant Pod in Kubernetes (refer
-to figure 25). Clicking the lock image on an ingress element will open the lock and open the attached Container/Pod to
+Users can directly input the port number that will be used to open the port for the relevant Pod in Kubernetes. Clicking the lock image on an ingress element will open the lock and open the attached Container/Pod to
 the internet. Ingress elements can only be attached to git or container elements. When an Ingress element is attached
 to a git or container element, it modifies the deployment descriptor for the relevant Kubernetes pod that is already
 deployed in the Kubernetes cluster and then executes a command in Kubernetes to update the configuration for that
