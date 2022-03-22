@@ -1,3 +1,5 @@
+.. image:: images/harpoon_logo_white.png
+
 **harpoon** is a No Code Kubernetes platform that makes it insanely easy to build, deploy, and maintain software.
 
 Contents
