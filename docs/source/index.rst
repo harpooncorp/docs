@@ -2,7 +2,9 @@
    :width: 400
    :align: center
 
+
 **harpoon** is a No Code Kubernetes platform that makes it insanely easy to build, deploy, and maintain software.
+Deploying software shouldn't just be easy, it should be fun.
 
 Contents
 --------
