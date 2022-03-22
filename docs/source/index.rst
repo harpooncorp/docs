@@ -1,4 +1,4 @@
-.. image:: ../images/harpoon_logo_white.png
+.. image:: ../images/harpoon_logo_white_trans.png
    :width: 400
    :align: center
 
