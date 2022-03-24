@@ -124,6 +124,11 @@ The harpoon backend services connect directly to the Kubernetes API for the user
 using the same dynamic mechanism as the other Kubernetes objects, to pull logs for the user deployments. These
 are then sent to the frontend for visualization by the user.
 
+.. _search:
+
+Search
+======
+
 Search git repositories (public and private)
 --------------------------------------------
 Users can search for both public and private git repositories. A user links their Github account
@@ -142,6 +147,11 @@ to find relevant container images that match the string. When a response is rece
 harpoon microservice sends the response to the harpoon frontend to display with all the relevant data
 associated in JSON format that can be parsed into the display.
 
+.. _third-party integration:
+
+Third-party Integration
+========
+
 Link accounts
 -------------
 Users have the ability to link their third-party accounts to harpoon in order to search for
@@ -153,6 +163,11 @@ third-party providers is currently:
 * :doc:`github`
 * :doc:`dockerhub`
 * :doc:`harbor`
+
+.. _other:
+
+Other
+=====
 
 Projects
 ------------
