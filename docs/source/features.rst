@@ -87,7 +87,8 @@ to expose the created Volume, in the user-specified manner, to the running conta
 Ingress Element
 ---------------
 The ingress element is a visual representation of a Kubernetes Ingress Route for the deployed git or container element.
-Users can directly input the port number that will be used to open the port for the relevant Pod in Kubernetes. Clicking the lock image on an ingress element will open the lock and open the attached Container/Pod to
+Users can directly input the port number that will be used to open the port for the relevant Pod in Kubernetes.
+Clicking the lock image on an ingress element will open the lock and open the attached Container/Pod to
 the internet. Ingress elements can only be attached to git or container elements. When an Ingress element is attached
 to a git or container element, it modifies the deployment descriptor for the relevant Kubernetes pod that is already
 deployed in the Kubernetes cluster and then executes a command in Kubernetes to update the configuration for that

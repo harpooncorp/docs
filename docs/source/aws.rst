@@ -6,14 +6,13 @@ and a secret access key. Since harpoon is deploying all of the necessary infrast
 addition to the Kubernetes cluster, we require fairly extensive access to the account in order to
 successfully perform the provisioning of the environment. The following are the specific permissions harpoon needs
 to successfully deploy a cluster:
+
 * AmazonRDSFullAccess
 * IAMFullAccess
 * AmazonEC2FullAccess
 * AmazonVPCFullAccess
 * AmazonS3FullAccess
 * AWSKeyManagementServicePowerUser
-
-
 
 Also note that harpoon does provision virtual infrastructure in your AWS account, so while harpoon will
 not interfere with any other virtual infrastructure in your AWS account, you could always potentially
