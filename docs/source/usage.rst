@@ -15,24 +15,20 @@ Once you've linked your cloud service provider account, you just click the "star
 cloud/node element in the workspace. That's it. No, really! The cloud/node element will turn yellow
 and provide a little spinny wheel to entertain you. When the cluster is running, the cloud will return
 and the element will glow a happy blue color.
-
 .. raw:: html
-
-    <div>
+    <div style="margin-bottom: 2em;">
         <video width="320" height="240" controls>
         <source src="_static/cluster-startup.mp4" type="video/mp4">
         </video>
     </div>
-----------------------
+
 Tearing down a cluster
 ----------------------
 Don't need your cluster running all the time? No problem! Hit the "shutdown" button on the cloud/node
 element in the workspace. This will automatically tear down all the infrastructure harpoon was using
 in your cloud service provider account
-
 .. raw:: html
-
-    <div>
+    <div style="margin-bottom: 2em;">
         <video width="320" height="240" controls>
         <source src="_static/cluster-teardown.mp4" type="video/mp4">
         </video>
