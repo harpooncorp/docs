@@ -26,7 +26,7 @@ in your cloud service provider account
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <video width="320" height="240" controls>
-        <source src="docs/docs/_static/cluster-teardown.mp4" type="video/mp4">
+        <source src="../_static/cluster-teardown.mp4" type="video/mp4">
         </video>
     </div>
 
