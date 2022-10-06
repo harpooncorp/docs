@@ -23,7 +23,7 @@ and the element will glow a happy blue color.
         <source src="_static/cluster-startup.mp4" type="video/mp4">
         </video>
     </div>
-
+----------------------
 Tearing down a cluster
 ----------------------
 Don't need your cluster running all the time? No problem! Hit the "shutdown" button on the cloud/node
