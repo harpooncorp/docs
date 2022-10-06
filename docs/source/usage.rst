@@ -17,7 +17,7 @@ and provide a little spinny wheel to entertain you. When the cluster is running,
 and the element will glow a happy blue color.
 
 .. raw:: html
-    <div style="margin-bottom: 2em;">
+    <div>
         <video width="320" height="240" controls>
         <source src="_static/cluster-startup.mp4" type="video/mp4">
         </video>
@@ -30,7 +30,7 @@ element in the workspace. This will automatically tear down all the infrastructu
 in your cloud service provider account
 
 .. raw:: html
-    <div style="margin-bottom: 2em;">
+    <div>
         <video width="320" height="240" controls>
         <source src="_static/cluster-teardown.mp4" type="video/mp4">
         </video>
