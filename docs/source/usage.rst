@@ -16,6 +16,14 @@ cloud/node element in the workspace. That's it. No, really! The cloud/node eleme
 and provide a little spinny wheel to entertain you. When the cluster is running, the cloud will return
 and the element will glow a happy blue color.
 
+.. raw:: html
+
+    <div>
+        <video width="320" height="240" controls>
+        <source src="_static/cluster-startup.mp4" type="video/mp4">
+        </video>
+    </div>
+
 Tearing down a cluster
 ----------------------
 Don't need your cluster running all the time? No problem! Hit the "shutdown" button on the cloud/node
@@ -24,7 +32,7 @@ in your cloud service provider account
 
 .. raw:: html
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <div>
         <video width="320" height="240" controls>
         <source src="_static/cluster-teardown.mp4" type="video/mp4">
         </video>
