@@ -63,7 +63,7 @@ Scalling down a cluster
 ----------------------
 Don't need all the nodes in your cluster anymore? No problem! Just hit the "delete" button on the
 cloud/node element in your workspace. You can not delete the base node (the first node that was auto placed
-on registration) but ever other node is able to be deleted/removed. Deleting a node will start the scale down 
+on registration) but every other node is able to be deleted/removed. Deleting a node will start the scale down 
 process, no visual representaiton is shown becuase your cluster is still fully operational during this process.
 
 .. raw:: html
@@ -80,7 +80,7 @@ You can't come back from this aside from starting over, so make sure you really 
 
 Deploying Containers
 ----------------------
-Deploying Containers is as easy as hitting the deploy button. Github containers will require you to build the 
+Deploying containers is as easy as hitting the deploy button. Github containers will require you to build the 
 repository first. In order for harpoon to successfully build a GitHub repository, we currently require the repository
 to have a top-level Dockerfile, which is industry best practice. If the Dockerfile is there, once you click the “Build”
 button, harpoon will automatically find it and build a container image that gets pushed to a private container registry
