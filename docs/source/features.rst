@@ -33,11 +33,19 @@ interact with the underlying cloud provider to allow for automated provisioning 
 cloud-native services directly from within the cluster. This also enables features such as autoscaling and other
 features that require integration between the cloud provider and the Kubernetes cluster managed by harpoon.
 
+.. image:: ../images/node.png
+   :width: 300
+   :align: center
+
 Git Element
 -----------
 The git element is a visual representation of a git repository which can be either a public or private repository.
 A given git repository can be built with a pre-existing docker file or write their own build commands and choose
 their own operating system to build the repository. Git elements can only be attached to nodes.
+
+.. image:: ../images/github.png
+   :width: 300
+   :align: center
 
 Container Element
 -----------------
@@ -52,6 +60,10 @@ but generally, a Kubernetes Deployment object is created to instruct the cluster
 The backend service then deploys these manifests to the cluster using its API and then watches for a successful or
 unsuccessful deployment of the container. The state and status of the deployment is communicated to the frontend
 to show the user what the state of their request is.
+
+.. image:: ../images/mongo.png
+   :width: 300
+   :align: center
 
 Link Element
 ------------
@@ -71,6 +83,10 @@ the frontend makes a call to the backend which generates the required manifests 
 dynamically on behalf of the user. The backend service also modifies the associated container deployment to
 expose the created ConfigMap, in the user-specified manner, to the running container deployment.
 
+.. image:: ../images/configmap.png
+   :width: 300
+   :align: center
+
 Volume Element
 --------------
 The Volume element is a visual representation of a Kubernetes Persistent Volume Claim (PVC) for a
@@ -83,6 +99,10 @@ Kubernetes that is deployed will be dynamically linked to the distributed volume
 deployments, the frontend makes a call to the backend which generates the required manifests and pushes them to
 Kubernetes dynamically on behalf of the user. The backend service also modifies the associated container deployment
 to expose the created Volume, in the user-specified manner, to the running container deployment.
+
+.. image:: ../images/volume.png
+   :width: 300
+   :align: center
 
 Ingress Element
 ---------------
@@ -100,6 +120,10 @@ within the cluster to allow for automated configuration of ingress into the clus
 monitor the standup of the route both internally and externally to inform the user that the route is ready for use.
 This can include monitoring DNS servers to watch for when names propagate and are ready for use by users.
 
+.. image:: ../images/ingress.png
+   :width: 300
+   :align: center
+
 Secret Element
 --------------
 The secret element is a visual representation of Kubernetes secrets storage for a given git or container element.
@@ -113,6 +137,10 @@ the frontend makes a call to the backend which generates the required manifests 
 dynamically on behalf of the user. The backend service also modifies the associated container deployment to
 expose the created Secret, in the user-specified manner, to the running container deployment.
 
+.. image:: ../images/secret.png
+   :width: 300
+   :align: center
+
 Pod Log Element
 ---------------
 The log element is a visual representation of logs outputted by the deployed Kubernetes Pods giving users the
@@ -124,6 +152,10 @@ the response and then forwards that response to the harpoon frontend to display 
 The harpoon backend services connect directly to the Kubernetes API for the user cluster,
 using the same dynamic mechanism as the other Kubernetes objects, to pull logs for the user deployments. These
 are then sent to the frontend for visualization by the user.
+
+.. image:: ../images/logs.png
+   :width: 300
+   :align: center
 
 .. _search:
 
