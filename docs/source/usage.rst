@@ -151,6 +151,8 @@ and dragging a link to the intended target element.
         </video>
     </div>
 
+Volume link
+
 .. raw:: html
 
     <div>
@@ -158,6 +160,8 @@ and dragging a link to the intended target element.
         <source src="_static/ingress-attach.mp4" type="video/mp4">
         </video>
     </div>
+
+Ingress link
 
 .. raw:: html
 
@@ -167,6 +171,8 @@ and dragging a link to the intended target element.
         </video>
     </div>
 
+Secret link
+
 .. raw:: html
 
     <div>
@@ -174,6 +180,8 @@ and dragging a link to the intended target element.
         <source src="_static/config-attach.mp4" type="video/mp4">
         </video>
     </div>
+
+Config Map link
 
 Linking Container registry accounts
 ----------------------
@@ -187,6 +195,8 @@ Linking your github and harbor accounts will allow you to search through your gi
         </video>
     </div>
 
+Link Github Account
+
 .. raw:: html
 
     <div>
@@ -194,3 +204,5 @@ Linking your github and harbor accounts will allow you to search through your gi
         <source src="_static/link-harbor.mp4" type="video/mp4">
         </video>
     </div>
+
+Link Harbor Account
