@@ -55,7 +55,7 @@ have not already.
 
     <div>
         <video width="320" height="240" controls>
-        <source src="_static/scale-up.mp4" type="video/mp4">
+        <source src="_static/scale-up-cluster.mp4" type="video/mp4">
         </video>
     </div>
 
@@ -70,7 +70,7 @@ process, no visual representaiton is shown becuase your cluster is still fully o
 
     <div>
         <video width="320" height="240" controls>
-        <source src="_static/scale-down.mp4" type="video/mp4">
+        <source src="_static/scale-down-cluster.mp4" type="video/mp4">
         </video>
     </div>
 
@@ -94,6 +94,7 @@ software directly.
         <source src="_static/deploy-docker.mp4" type="video/mp4">
         </video>
     </div>
+Docker container deploy
 
 .. raw:: html
 
@@ -103,6 +104,8 @@ software directly.
         </video>
     </div>
 
+Github container build
+
 .. raw:: html
 
     <div>
@@ -111,6 +114,8 @@ software directly.
         </video>
     </div>
 
+Github container deploy
+
 .. raw:: html
 
     <div>
@@ -118,6 +123,8 @@ software directly.
         <source src="_static/harbor-deploy.mp4" type="video/mp4">
         </video>
     </div>
+
+Harbor container deploy
 
 Container Logs
 ----------------------
