@@ -18,3 +18,25 @@ Also note that harpoon does provision virtual infrastructure in your AWS account
 not interfere with any other virtual infrastructure in your AWS account, you could always potentially
 run into hitting a resource limit that might require you to request a higher limit for a particular
 resource.
+
+How to create a Amazon Web Services account and IAM user (demo)
+------------------
+
+.. raw:: html
+
+    <div>
+        <video width="320" height="240" controls>
+        <source src="_static/createAwsAccountAndUser.mov” type="video/mp4”>
+        </video>
+    </div>
+
+How to retrieve AWS IAM User Access keys (demo)  
+------------------
+
+.. raw:: html
+
+    <div>
+        <video width="320" height="240" controls>
+        <source src="_static/getAccessKeys.mov” type="video/mp4”>
+        </video>
+    </div>
