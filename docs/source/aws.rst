@@ -26,7 +26,7 @@ How to create a Amazon Web Services account and IAM user (demo)
 
     <div>
         <video width="320" height="240" controls>
-        <source src="_static/createAwsAccountAndUser.mov” type="video/mp4”>
+        <source src="_static/createAwsAccountAndUser.mp4” type="video/mp4”>
         </video>
     </div>
 
@@ -37,6 +37,6 @@ How to retrieve AWS IAM User Access keys (demo)
 
     <div>
         <video width="320" height="240" controls>
-        <source src="_static/getAccessKeys.mov” type="video/mp4”>
+        <source src="_static/getAccessKeys.mp4” type="video/mp4”>
         </video>
     </div>
