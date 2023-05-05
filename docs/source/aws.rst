@@ -24,19 +24,17 @@ How to create a Amazon Web Services account and IAM user (demo)
 
 .. raw:: html
 
-    <div>
-        <video width="320" height="240" controls>
-        <source src='_static/createAwsAccountAndUser.mp4' type='video/mp4'>
-        </video>
-    </div>
+    <video width="320" height="240" controls>
+      <source src="https://docker-desktop-screenshots.s3.us-west-2.amazonaws.com/createAwsAccountAndUser.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
 How to retrieve AWS IAM User Access keys (demo)  
 ------------------
 
 .. raw:: html
 
-    <div>
-        <video width="320" height="240" controls>
-        <source src='_static/getAccessKeys.mp4' type='video/mp4'>
-        </video>
-    </div>
+    <video width="320" height="240" controls>
+      <source src="https://docker-desktop-screenshots.s3.us-west-2.amazonaws.com/getAccessKeys.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
