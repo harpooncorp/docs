@@ -19,7 +19,7 @@ not interfere with any other virtual infrastructure in your AWS account, you cou
 run into hitting a resource limit that might require you to request a higher limit for a particular
 resource.
 
-How to create a Amazon Web Services account and IAM user (demo)
+How to create a Amazon Web Services account and IAM user 
 ------------------
 
 .. raw:: html
@@ -29,7 +29,7 @@ How to create a Amazon Web Services account and IAM user (demo)
       Your browser does not support the video tag.
     </video>
 
-How to retrieve AWS IAM User Access keys (demo)  
+How to retrieve AWS IAM User Access keys
 ------------------
 
 .. raw:: html
