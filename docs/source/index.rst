@@ -21,6 +21,8 @@ Contents
    :caption: Integrations
 
    aws
+   azure
+   gcp
    vmware
    dockerhub
    github
