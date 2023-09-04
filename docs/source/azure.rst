@@ -23,7 +23,7 @@ How to create a Azure account and Subscription
 
 * Coming soon
 
-How to retrieve Azure crednetials 
+How to retrieve Azure credentials 
 ------------------
 
 * Coming soon
