@@ -8,6 +8,8 @@ Registration
 Linking a Cloud Service Provider Account
 ----------------------------------------
 See :doc:`aws`
+See :doc:`azure`
+See :doc:`gcp`
 
 Starting a cluster
 ------------------

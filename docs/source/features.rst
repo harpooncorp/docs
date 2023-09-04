@@ -192,6 +192,8 @@ software to deploy using harpoon in a drag and drop fashion or connect to multip
 third-party providers is currently:
 
 * :doc:`aws`
+* :doc:`azure`
+* :doc:`gcp`
 * :doc:`vmware`
 * :doc:`github`
 * :doc:`dockerhub`
