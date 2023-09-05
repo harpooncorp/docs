@@ -1,7 +1,7 @@
 =========================
 Azure
 =========================
-If you want to deploy software on top of Azure, you will need to provide harpoon with an subscription ID,
+If you want to deploy software on top of Azure, you will need to provide harpoon with a subscription ID,
 tenant ID, client ID, and client secret (value). Since harpoon is deploying all of the necessary infrastructure in Azure in
 addition to the Kubernetes cluster, we require fairly extensive access to the account in order to
 successfully perform the provisioning of the environment. The following are the specific subscription resource providers harpoon needs
