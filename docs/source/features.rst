@@ -298,7 +298,7 @@ Step 10: Deploy Your Image
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 After you have located the image you would like to deploy, click and drag it onto the harpoon graph to the right.
 
-Be aware that to deploy this image, you will need to have a cluster running. If you have a running cluster, your node element will be glowing blue. If it is not, you can navigate to :doc:usage to watch a demo on how to deploy a cluster.
+Be aware that to deploy this image, you will need to have a cluster running. If you have a running cluster, your node element will be glowing blue. If it is not, you can navigate to :doc:`usage` to watch a demo on how to deploy a cluster.
 
 Step 11: Confirm Cluster and OS Compatibility
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
