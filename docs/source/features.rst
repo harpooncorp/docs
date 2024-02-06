@@ -244,7 +244,7 @@ Step 3: Enter Password
 Enter your harpoon api token. If you have forgoten it you can copy it from the harpoon UI after clicking on the information icon next to the "Developer settings".
 
 Step 4: Building Your Image (Optional)
---------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This step is necessary only if you have not already built your Docker image. If you already have an image ready for deployment, you can skip to the next step. 
 
