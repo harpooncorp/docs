@@ -37,27 +37,43 @@ Git Element
 -----------
 The git element is a visual representation of a git repository which can be either a public or private repository.
 A given git repository can be built with a pre-existing docker file or write their own build commands and choose
-their own operating system to build the repository. Git elements can only be attached to nodes.
+their own operating system to build the repository.
 
 .. image:: ../images/github.png
    :width: 300
    :align: center
 
-Container Element
+Docker Element
 -----------------
-The container element is a visual representation of a container image that can be deployed to a cluster.
-Container elements can only be attached to nodes. When a user calls for the deployment of a container on the frontend,
-a backend service is called to process the request. The frontend passes the image and configuration information to
-the backend for the creation of the container. harpoon stores the kubeconfig required to connect and interact with
-a cluster so that requests can be made directly to the cluster. The backend service takes the information provided
-by the frontend and dynamically generates a set of Kubernetes manifests to allow for the deployment of the container
-to the running cluster. The exact manifests generated vary based on the exact nature of the request from the frontend
-but generally, a Kubernetes Deployment object is created to instruct the cluster to deploy the container.
-The backend service then deploys these manifests to the cluster using its API and then watches for a successful or
-unsuccessful deployment of the container. The state and status of the deployment is communicated to the frontend
+The docker element is a visual representation of a docker container image that can be deployed to a cluster.
+When a user calls for the deployment of a container on the frontend, a backend service is called to process the request. 
+The frontend passes the image and configuration information to the backend for the creation of the container. harpoon
+stores the kubeconfig required to connect and interact with a cluster so that requests can be made directly to the cluster.
+The backend service takes the information provided by the frontend and dynamically generates a set of Kubernetes manifests
+to allow for the deployment of the container to the running cluster. The exact manifests generated vary based on the exact
+nature of the request from the frontend but generally, a Kubernetes Deployment object is created to instruct the cluster to
+deploy the container. The backend service then deploys these manifests to the cluster using its API and then watches for a 
+successful or unsuccessful deployment of the container. The state and status of the deployment is communicated to the frontend
 to show the user what the state of their request is.
 
 .. image:: ../images/mongo.png
+   :width: 300
+   :align: center
+
+Harpoon container Element
+-----------
+The harpoon container element is a visual representation of an image pushed to the private harpoon container registry.
+To see how to get harpoon container elements please see the Auto deployments section at the bottom of this page.
+
+.. image:: ../images/harpoon.png
+   :width: 300
+   :align: center
+
+Harbor conatiner Element
+-----------
+The harbor container element is a visual representation of a harbor image from the users linked harbor account.
+
+.. image:: ../images/harbor.png
    :width: 300
    :align: center
 
