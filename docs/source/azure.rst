@@ -13,7 +13,7 @@ to successfully deploy a cluster:
 * Microsoft.Resources
 * Microsoft.Authorization
 
-Azure application needs owner role assignment on the subscription.
+Azure application (service principal) needs user access administator and contributor or owner role assignment on the subscription.
 
 Also note that harpoon does provision virtual infrastructure in your Azure account, so while harpoon will
 not interfere with any other virtual infrastructure in your Azure account, you could always potentially
