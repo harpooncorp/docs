@@ -45,9 +45,9 @@ in your cloud service provider account
 that was provisioned by harpoon. You can't come back from this aside from starting over, so make sure
 you really do want to make everything go away.**
 
-Scalling up a cluster
+Scaling up a cluster
 ----------------------
-Once you've already started your cluster, scalling up is as easy as dragging another node element onto
+Once you've already started your cluster, scaling up is as easy as dragging another node element onto
 the graph. That's it. No really! The cloud/node element will turn yellow and provide a little spinny wheel
 to entertain you. When the cluster has completed the scale up, the cloud will return and the element will 
 glow a happy blue color. To get access to more nodes you will need to upgrade your harpoon account if you
@@ -61,7 +61,7 @@ have not already.
         </video>
     </div>
 
-Scalling down a cluster
+Scaling down a cluster
 ----------------------
 Don't need all the nodes in your cluster anymore? No problem! Just hit the "delete" button on the
 cloud/node element in your workspace. You can not delete the base node (the first node that was auto placed
