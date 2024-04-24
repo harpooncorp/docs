@@ -12,6 +12,7 @@ to successfully deploy a cluster:
 * Microsoft.ContainerService
 * Microsoft.Resources
 * Microsoft.Authorization
+* Microsoft.Storage
 
 Azure application (service principal) needs user access administator and contributor or owner role assignment on the subscription.
 
