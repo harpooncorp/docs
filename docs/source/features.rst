@@ -341,6 +341,49 @@ If you have successfully turned on auto-deployment, you can now integrate the st
            run: docker push registry.harpooncorp.com/atest/harpoondemo:latest
 
 
+Travis CI
+=========
+
+Make sure in the Travis CI GUI you label the Harpoon API as ``HARPOON_API_TOKEN``. Ensure that where the Harpoon username ``montana`` is defined in the ``.travis.yml`` file, it’s replaced with your own username. Also, replace ``harpoondemo`` with your own project name. Below is the ``.travis.yml`` file that should get you started:
+
+.. code-block:: yaml
+
+   language: generic
+   dist: focal
+
+   cache:
+     directories:
+       - $HOME/.docker
+   
+   before_install:
+     - sudo apt-get update
+     - uname -r 
+   
+   script:
+     - echo "$HARPOON_API_TOKEN" | docker login https://registry.harpooncorp.com -u montana --password-stdin
+     - docker build --platform linux/amd64 -t harpoondemo .
+     - docker tag harpoondemo:latest registry.harpooncorp.com/montana/harpoondemo:latest
+     - docker push registry.harpooncorp.com/montana/harpoondemo:latest
+   
+   branches:
+     only:
+       - master
+
+Next, simply go to the dropdown on the left-hand side, select "Harpoon," and then search. You should see your project; drag and drop it to the stages screen. You should then see the push. Look at this working example `here <https://github.com/Montana/travis-harpoon/blob/master/.travis.yml>`_. This project also contains a pre coded NodeJS project. 
+
+You've now successfully added harpoon to your Travis CI/CD pipeline. Some things to remember, firstly it's imparitive you have your `harpoon` usernamae in this string: 
+
+.. code-block:: shell
+
+   echo "$HARPOON_API_TOKEN" | docker login https://registry.harpooncorp.com -u montana --password-stdin
+
+You need to make sure Travis logs into DockerHub with the ``env vars`` you've given it, watch out for the following: 
+
+.. image:: ../images/travis.png
+      :width: 500
+      :align: center
+
+If you see something similar pictured above you've now succesfully used harpoon with Travis.
 
 Other
 =====
