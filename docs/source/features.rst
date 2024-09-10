@@ -340,7 +340,35 @@ If you have successfully turned on auto-deployment, you can now integrate the st
          - name: Push Docker image to Docker Hub
            run: docker push registry.harpooncorp.com/atest/harpoondemo:latest
 
+Travis CI
+=========
 
+Make sure in the Travis CI GUI you label the Harpoon API as ``HARPOON_API_TOKEN``. Ensure that where the Harpoon username ``montana`` is defined in the ``.travis.yml`` file, it’s replaced with your own username. Also, replace ``harpoondemo`` with your own project name. Below is the ``.travis.yml`` file that should get you started:
+
+.. code-block:: yaml
+
+   language: generic
+   dist: focal
+
+   cache:
+     directories:
+       - $HOME/.docker
+   
+   before_install:
+     - sudo apt-get update
+     - uname -r 
+   
+   script:
+     - echo "$HARPOON_API_TOKEN" | docker login https://registry.harpooncorp.com -u montana --password-stdin
+     - docker build --platform linux/amd64 -t harpoondemo .
+     - docker tag harpoondemo:latest registry.harpooncorp.com/montana/harpoondemo:latest
+     - docker push registry.harpooncorp.com/montana/harpoondemo:latest
+   
+   branches:
+     only:
+       - master
+
+Next, simply go to the dropdown on the left-hand side, select "Harpoon," and then search. You should see your project; drag and drop it to the stages screen. You should then see the push. Look at this working example `here <https://github.com/Montana/travis-harpoon/blob/master/.travis.yml>`_. You've now successfully added harpoon to your Travis CI CI/CD pipeline. 
 
 Other
 =====
