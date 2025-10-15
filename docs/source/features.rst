@@ -33,6 +33,14 @@ The Node Element maps to a set of machines that together form a Kubernetes clust
    :width: 300
    :align: center
 
+Node Group Element
+------------
+The Node Group element is a visual representation of a set of virtual machines running within a users cloud provider account. You can scale the cluster up by adding additional node groups (when capacity is available) and scale it down by deleting a node group. You can also enable autoscaling or change the node OS type in the node group settings. Currently, harpoon supports only Windows nodes on Azure Kubernetes Service (AKS) clusters.
+
+.. image:: ../images/nodegroup.png
+   :width: 300
+   :align: center
+
 Git Element
 -----------
 The git element is a visual representation of a git repository which can be either a public or private repository.
@@ -74,6 +82,14 @@ Harbor conatiner Element
 The harbor container element is a visual representation of a harbor image from the users linked harbor account.
 
 .. image:: ../images/harbor.png
+   :width: 300
+   :align: center
+
+Helm chart Element
+-----------
+The helm chart element is a visual representation of a helm chart from either the users linked harbor account or through the harpoon api.
+
+.. image:: ../images/helm-chart.png
    :width: 300
    :align: center
 
