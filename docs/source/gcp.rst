@@ -15,6 +15,18 @@ not interfere with any other virtual infrastructure in your GCP account, you cou
 run into hitting a resource limit that might require you to request a higher limit for a particular
 resource.
 
+harpoon Infrastructure Version Mapping
+------------------
+
+The following table shows which Google Kubernetes Engine (GKE) versions are supported by each Harpoon
+Infrastructure-as-Code (IaC) release.
+
++----------------------+-------------------+
+| harpoon IaC Version  | GKE version       |
++======================+===================+
+| 7.0                  | 1.35.1-gke.1396000|
++----------------------+-------------------+
+
 How to create a Google Cloud Platform account and project 
 ------------------
 

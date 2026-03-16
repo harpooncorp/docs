@@ -19,6 +19,26 @@ not interfere with any other virtual infrastructure in your AWS account, you cou
 run into hitting a resource limit that might require you to request a higher limit for a particular
 resource.
 
+harpoon Infrastructure Version Mapping
+------------------
+
+The following table shows which Elastic Kubernetes Service (EKS) versions are supported by each Harpoon
+Infrastructure-as-Code (IaC) release.
+
++----------------------+-------------------+
+| harpoon IaC Version  | EKS version       |
++======================+===================+
+| 5.0                  | 1.31              |
++----------------------+-------------------+
+| 6.0                  | 1.32              |
++----------------------+-------------------+
+| 7.0                  | 1.33              |
++----------------------+-------------------+
+| 8.0                  | 1.34              |
++----------------------+-------------------+
+| 9.0                  | 1.35              |
++----------------------+-------------------+
+
 How to create a Amazon Web Services account and IAM user 
 ------------------
 

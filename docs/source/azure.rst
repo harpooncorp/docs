@@ -21,6 +21,28 @@ not interfere with any other virtual infrastructure in your Azure account, you c
 run into hitting a resource limit that might require you to request a higher limit for a particular
 resource.
 
+harpoon Infrastructure Version Mapping
+------------------
+
+The following table shows which Azure Kubernetes Service (AKS) versions are supported by each Harpoon
+Infrastructure-as-Code (IaC) release.
+
++----------------------+-------------------+
+| harpoon IaC Version  | AKS version       |
++======================+===================+
+| 6.0                  | 1.29              |
++----------------------+-------------------+
+| 7.0                  | 1.30              |
++----------------------+-------------------+
+| 8.0                  | 1.31              |
++----------------------+-------------------+
+| 9.0                  | 1.32              |
++----------------------+-------------------+
+| 10.0                 | 1.33              |
++----------------------+-------------------+
+| 11.0                 | 1.34              |
++----------------------+-------------------+
+
 How to create a Azure account and Subscription 
 ------------------
 
